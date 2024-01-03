@@ -3,3 +3,5 @@ this it's a test msg
 this it's a second commit
 
 this it's a third commit but i want to see all changes in git status
+
+Ahora pasaremos a escribir este txt en español, ya que me aburri de estar traduciendo xd
