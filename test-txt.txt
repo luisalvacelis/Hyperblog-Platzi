@@ -2,6 +2,4 @@ this it's a test msg
 
 this it's a second commit
 
-this it's a third commit
-
-this it's a fourth commit
+this it's a third commit but i want to see all changes in git status
