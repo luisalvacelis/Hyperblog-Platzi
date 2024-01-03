@@ -1,0 +1,13 @@
+Comandos necesarios (básicos):
+git add ./<file>
+git commit -m "<msg commit>"
+git show --> show current changes in master
+git log --> all commits
+git log --stat -> show all details changes, press q to leave
+code <file> --> open file in visual studio code
+git checkout <code commit> <file> --> show commit directly in file
+git status --> show current status all files in repository git
+git reset <code commit> --<hard/soft> --> reset commit in file, hard is dangerus and soft is so so
+git diff <first code commit> <second code commit> --> compare two commit 
+git config | (--list --show-origin) --> show all config git
+git rm --cached <file> --> remove file from git
