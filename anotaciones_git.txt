@@ -11,6 +11,7 @@ git reset <code commit> --<hard/soft> --> reset commit in file, hard is dangerus
 git diff <first code commit> <second code commit> --> compare two commit 
 git config | (--list --show-origin) --> show all config git
 git rm --cached <file> --> remove file from git
+git revert -->Para deshacer cambios de confirmaciones anteriores de forma segura sin modificar la historia del repositorio, se emplea git revert.
 
 
 Es recomendable siempre usar el git checkout para validar información de commits anteriores, ya que si usamos git reset no volveremos al commit que declaramos sin la posibilidad de retornar
