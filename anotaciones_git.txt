@@ -21,7 +21,7 @@ git remote --> ver los repositorios traidos
 git remote -v -->vista general para el fetch y push
 git branch -m main --> cambiar de master a main por politicas de github
 git push origin main --> saldra error en amarillo
-git pull origin main --> saldra error en blanco de fatal: refusing to merge unrelated histories
+git pull origin main --> saldra error en blanco de fatal: refusing to merge unrelated histories | este comando sirve para traer toda la información o la historia o actualizaciones que se han hecho directamente en el repositoro de github
 git pull origin main --allow-unrelated-histories --> ignora el error anterior y lo ejecuta sin verificar el historial
 
 
