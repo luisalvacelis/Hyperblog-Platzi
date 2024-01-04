@@ -29,6 +29,8 @@ git tag -a <name tag in one word> -m "<description tag>" --> crea tags para resu
 git tag --> muestra todos los tags declarados.
 git show-ref --tags --> muestra el hash del tag
 history --> muestra la historia del repositorio
+git tag -d <name tag> --> elimina el tag del git
+git push origin :refs/tags/<name tag> --> elimina el tag del github
 
 
 Es recomendable siempre usar el git checkout para validar información de commits anteriores, ya que si usamos git reset no volveremos al commit que declaramos sin la posibilidad de retornar
