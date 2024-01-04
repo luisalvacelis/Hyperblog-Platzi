@@ -12,6 +12,10 @@ git diff <first code commit> <second code commit> --> compare two commit
 git config | (--list --show-origin) --> show all config git
 git rm --cached <file> --> remove file from git
 git revert -->Para deshacer cambios de confirmaciones anteriores de forma segura sin modificar la historia del repositorio, se emplea git revert.
+git branch <name branch> --> Crea nueva rama
+git checkout <name branch> --> te mueves en ramas
+git merge <location> --> unificas branchs
+git commit -am "<name commit>" -->commit mas simple
 
 
 Es recomendable siempre usar el git checkout para validar información de commits anteriores, ya que si usamos git reset no volveremos al commit que declaramos sin la posibilidad de retornar
