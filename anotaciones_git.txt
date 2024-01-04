@@ -15,7 +15,14 @@ git revert -->Para deshacer cambios de confirmaciones anteriores de forma segura
 git branch <name branch> --> Crea nueva rama
 git checkout <name branch> --> te mueves en ramas
 git merge <location> --> unificas branchs
-git commit -am "<name commit>" -->commit mas simple
+git commit -am "<name commit>" --> commit mas simple
+git remote add origin <url clone> --> traer el repositorio de github a git
+git remote --> ver los repositorios traidos
+git remote -v -->vista general para el fetch y push
+git branch -m main --> cambiar de master a main por politicas de github
+git push origin main --> saldra error en amarillo
+git pull origin main --> saldra error en blanco de fatal: refusing to merge unrelated histories
+git pull origin main --allow-unrelated-histories --> ignora el error anterior y lo ejecuta sin verificar el historial
 
 
 Es recomendable siempre usar el git checkout para validar información de commits anteriores, ya que si usamos git reset no volveremos al commit que declaramos sin la posibilidad de retornar
