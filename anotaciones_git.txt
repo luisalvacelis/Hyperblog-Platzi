@@ -25,6 +25,10 @@ git pull origin main --> saldra error en blanco de fatal: refusing to merge unre
 git pull origin main --allow-unrelated-histories --> ignora el error anterior y lo ejecuta sin verificar el historial
 git log --all --graph --decorate --oneline --> muestra la historia del git/github de manera resumida
 alias <name>="<commant git> --> resume todo tu commando en uno solo, para llamar al alias solo se llama al nombre del alias y listo
+git tag -a <name tag in one word> -m "<description tag>" --> crea tags para resumir commits o versiones
+git tag --> muestra todos los tags declarados.
+git show-ref --tags --> muestra el hash del tag
+history --> muestra la historia del repositorio
 
 
 Es recomendable siempre usar el git checkout para validar información de commits anteriores, ya que si usamos git reset no volveremos al commit que declaramos sin la posibilidad de retornar
