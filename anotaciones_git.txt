@@ -23,6 +23,8 @@ git branch -m main --> cambiar de master a main por politicas de github
 git push origin main --> saldra error en amarillo
 git pull origin main --> saldra error en blanco de fatal: refusing to merge unrelated histories | este comando sirve para traer toda la información o la historia o actualizaciones que se han hecho directamente en el repositoro de github
 git pull origin main --allow-unrelated-histories --> ignora el error anterior y lo ejecuta sin verificar el historial
+git log --all --graph --decorate --oneline --> muestra la historia del git/github de manera resumida
+alias <name>="<commant git> --> resume todo tu commando en uno solo, para llamar al alias solo se llama al nombre del alias y listo
 
 
 Es recomendable siempre usar el git checkout para validar información de commits anteriores, ya que si usamos git reset no volveremos al commit que declaramos sin la posibilidad de retornar
