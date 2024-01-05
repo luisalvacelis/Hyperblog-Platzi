@@ -43,6 +43,10 @@ body{
     padding: 1em;
 }
 
+#post #team_platzi{ 
+    text-align: center; 
+}
+
 #footer{
     background: #777;
     color: white;
