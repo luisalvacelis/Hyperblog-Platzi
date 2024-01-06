@@ -32,6 +32,10 @@ history --> muestra la historia del repositorio
 git tag -d <name tag> --> elimina el tag del git
 git push origin :refs/tags/<name tag> --> elimina el tag del github
 git remote add <name> <url git> --> añade una nueva fuente de extracción de datos del repositorio.
+git stash --> vuelve al ultimo commit realizado.
+git stash list --> muestra el ultimo commit guardado en el cache
+git stash pop --> vuelve a la ultima modificacion del branch, y si encuentra commits por pushear se muestra.
+
 
 
 
