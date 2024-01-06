@@ -39,6 +39,11 @@ git stash list --> muestra el ultimo commit guardado en el cache
 git stash pop --> vuelve a la ultima modificacion del branch, y si encuentra commits por pushear se muestra.
 
 git stash es para almacenar una cambios sin alterar por completo el branch.
+----------------------------------------------------
+git clean --dry-run --> elimina todo en seco
+git clean -f --> elimina los archivos
+git clean no elimina carpetas, así que si hay carpetas que no requieras, tendras que eliminarlas manualmente.
+ojo: si el archivos que vas a dar clean se encuentra en el archivo .gitignore no se borrará, solo github lo ignorará.
 
 
 
