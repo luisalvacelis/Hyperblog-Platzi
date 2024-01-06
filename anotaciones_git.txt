@@ -57,7 +57,12 @@ git commit --amend --> añade la ultima modificación que hiciste a tu commit qu
 git grep -n <texto a buscar> --> busca donde se usaron los textos declarados
 git grep -c <texto a buscar> --> cuenta cuantas veces has usado el texto declarado
 git log -S "<texto a bscar>" --> busca en historial del repositorio
+git shortlog -sn --> ver cuantos commits han hecho en el repositorio
+git shortlog -sn --all --> muestra todo, incluido los borrados
+git shortlog -sn --all --no-merges --> muestra todo, excepto los merges
+git config --global alias.stats "<code git>" --> crea un nuevo commando que resuma el codigo
 
+git blame <file> --> mira la culpa o quien hizo la modificaciones y al agregarle el -c o -L<num inicio>,<num final> -c, verifica desde donde a donde quien modifico esa parte.
 
 
 Es recomendable siempre usar el git checkout para validar información de commits anteriores, ya que si usamos git reset no volveremos al commit que declaramos sin la posibilidad de retornar
