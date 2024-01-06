@@ -53,6 +53,7 @@ rebase reescribe la historia del repositorio, cambia la historia de donde comenz
 git reflog --> muestra todo todo todito
 git reset --(hard|soft) <hash reflog> --> resetea al hash que declaraste
 
+git commit --amend --> añade la ultima modificación que hiciste a tu commit que declaraste anteriormente (ojo: solo se usa para arreglar cagadas jjsjs)
 
 Es recomendable siempre usar el git checkout para validar información de commits anteriores, ya que si usamos git reset no volveremos al commit que declaramos sin la posibilidad de retornar
 
