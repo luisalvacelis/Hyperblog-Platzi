@@ -54,6 +54,11 @@ git reflog --> muestra todo todo todito
 git reset --(hard|soft) <hash reflog> --> resetea al hash que declaraste
 
 git commit --amend --> añade la ultima modificación que hiciste a tu commit que declaraste anteriormente (ojo: solo se usa para arreglar cagadas jjsjs)
+git grep -n <texto a buscar> --> busca donde se usaron los textos declarados
+git grep -c <texto a buscar> --> cuenta cuantas veces has usado el texto declarado
+git log -S "<texto a bscar>" --> busca en historial del repositorio
+
+
 
 Es recomendable siempre usar el git checkout para validar información de commits anteriores, ya que si usamos git reset no volveremos al commit que declaramos sin la posibilidad de retornar
 
