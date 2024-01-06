@@ -45,6 +45,13 @@ git clean -f --> elimina los archivos
 git clean no elimina carpetas, así que si hay carpetas que no requieras, tendras que eliminarlas manualmente.
 ojo: si el archivos que vas a dar clean se encuentra en el archivo .gitignore no se borrará, solo github lo ignorará.
 
+git cherry-pick <hash commit> --> trae un commit específico a tu branch.
+git rebase <branch> --> añade la historia del branch indicado al branch actual
+
+rebase reescribe la historia del repositorio, cambia la historia de donde comenzó la rama y solo debe ser usado de manera local.
+
+git reflog --> muestra todo todo todito
+
 
 
 Es recomendable siempre usar el git checkout para validar información de commits anteriores, ya que si usamos git reset no volveremos al commit que declaramos sin la posibilidad de retornar
