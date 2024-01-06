@@ -50,11 +50,8 @@ git rebase <branch> --> añade la historia del branch indicado al branch actual
 
 rebase reescribe la historia del repositorio, cambia la historia de donde comenzó la rama y solo debe ser usado de manera local.
 
-<<<<<<< HEAD
 git reflog --> muestra todo todo todito
 git reset --(hard|soft) <hash reflog> --> resetea al hash que declaraste
-=======
->>>>>>> 636f4de5508c220facda4e532d278506f9dcc619
 
 
 Es recomendable siempre usar el git checkout para validar información de commits anteriores, ya que si usamos git reset no volveremos al commit que declaramos sin la posibilidad de retornar
